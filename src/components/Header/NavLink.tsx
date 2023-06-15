@@ -1,26 +1,18 @@
 'use client'
 
 import classNames from 'classnames'
-import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 
 interface LinkProps {
   title: string
   path: string
-  includes?: boolean
 }
 
-export function NavLink({ title, path, includes = false }: LinkProps) {
+export function NavLink({ title, path }: LinkProps) {
   const pathname = usePathname()
 
-  function verifyIfIsActive() {
-    if (includes) {
-      return pathname.includes(path)
-    }
-    return path === pathname
-  }
-
-  const isActive = verifyIfIsActive()
+  const isActive = pathname === path
 
   return (
     <div>
