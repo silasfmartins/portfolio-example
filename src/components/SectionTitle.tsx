@@ -5,18 +5,17 @@ export interface SectionTitleProps {
   description?: string | ReactNode
 }
 
-export function SectionTitle({
-  title,
-  description,
-}: SectionTitleProps) {
+export function SectionTitle({ title, description }: SectionTitleProps) {
   return (
     <div
       data-aos="fade-right"
-      className="w-full flex flex-col items-start gap-2 md:items-center"
+      className="flex w-full flex-col items-start gap-2 md:items-center"
     >
-      <h1 className="dark:text-primary text-primaryLight text-7xl emd:text-5xl sm:text-4xl esd:text-3xl transition-colors duration-500">{title}</h1>
+      <h1 className="text-7xl text-primaryLight transition-colors duration-500 dark:text-primary sm:text-4xl emd:text-5xl esd:text-3xl">
+        {title}
+      </h1>
       {description && (
-        <h2 className="text-secondary font-light text-[2.5rem] emd:text-base esd:text-lg sm:text-xl transition-colors duration-500">
+        <h2 className="text-[2.5rem] font-light text-secondary transition-colors duration-500 sm:text-xl emd:text-base esd:text-lg">
           {description}
         </h2>
       )}

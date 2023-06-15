@@ -1,8 +1,8 @@
-import { NavLink } from "./NavLink";
+import { NavLink } from './NavLink'
 
 interface LiLinkProps {
-  title: string;
-  path: string;
+  title: string
+  path: string
 }
 
 export function LiLink({ title, path }: LiLinkProps) {

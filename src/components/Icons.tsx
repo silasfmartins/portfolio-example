@@ -1,17 +1,17 @@
-import { ReactNode } from "react"
+import { ReactNode } from 'react'
 
 interface IconsProps {
-  title: string;
+  title: string
   icon: ReactNode
 }
 
 export function Icons({ title, icon }: IconsProps) {
   return (
-    <div className="flex flex-col gap-[0.8rem] items-center justify-center group">
-      <p className="dark:text-primary text-secondary dark:group-hover:text-primary group-hover:text-primaryLight font-light text-[1.3rem] uppercase text-base transition-colors">
+    <div className="group flex flex-col items-center justify-center gap-[0.8rem]">
+      <p className="text-[1.3rem] text-base font-light uppercase text-secondary transition-colors group-hover:text-primaryLight dark:text-primary dark:group-hover:text-primary">
         {title}
       </p>
-      <div className="max-w-[6.5rem] max-h-[6.5rem] md:max-w-[2.5rem] md:max-h-[2.5rem] text-secondary duration-300 hover:text-primaryLight scale-405 flex items-center justify-center md:w-20 md:h-20 transition-colors mt-8">
+      <div className="mt-8 flex max-h-[6.5rem] max-w-[6.5rem] scale-405 items-center justify-center text-secondary transition-colors duration-300 hover:text-primaryLight md:h-20 md:max-h-[2.5rem] md:w-20 md:max-w-[2.5rem]">
         {icon}
       </div>
     </div>
