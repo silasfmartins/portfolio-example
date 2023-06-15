@@ -19,7 +19,7 @@ Site que concentra todos os meus projetos.
 -   [ x ] Typescript
 -   [ x ] React
 -   [ x ] Tailwind
-
+-   [ x ] Next 13
 
 ## :hammer_and_wrench: Features 
 
