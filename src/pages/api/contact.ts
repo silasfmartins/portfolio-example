@@ -1,6 +1,11 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import nodemailer from 'nodemailer'
-import { SendMailData } from '../adapters/mail-adapter'
+
+interface SendMailData {
+  senderMail: string
+  name: string
+  text: string
+}
 
 const email = process.env.MAILADRESS
 const emailPass = process.env.MAILPASS

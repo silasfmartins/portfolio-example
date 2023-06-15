@@ -2,9 +2,8 @@
 
 import { useState } from 'react'
 
-import { sendContactMail } from '../pages/adapters/nodemailer/nodemailer-mail-adapter'
-
 import toast from 'react-hot-toast'
+import axios from 'axios'
 
 export function SendEmailForm() {
   const [nome, setNome] = useState('')
@@ -12,6 +11,24 @@ export function SendEmailForm() {
   const [mensagem, setMensagem] = useState('')
 
   const [loading, setLoading] = useState(false)
+
+  async function sendContactMail(
+    name: string,
+    senderMail: string,
+    content: string,
+  ) {
+    const data = {
+      name,
+      senderMail,
+      content,
+    }
+
+    try {
+      return await axios.post('/api/contact', data)
+    } catch (error) {
+      return error
+    }
+  }
 
   async function handleSubmit(event: any) {
     event.preventDefault()
