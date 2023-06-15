@@ -24,7 +24,7 @@ export function NavMenu() {
             <NavLink title="Home" path="/" />
           </li>
           <li className="transition-500 uppercase text-primaryLight transition-colors duration-500 dark:text-highlight">
-            <NavLink title="Projetos" path="/projetos" includes />
+            <NavLink title="Projetos" path="/projetos" />
           </li>
         </ul>
         <section className="flex items-center gap-4 sm:gap-2">
