@@ -68,7 +68,7 @@ export default function Home() {
                 Silas Martins
               </h1>
               <div className="text-2xl font-light text-secondaryLight transition-colors duration-500 dark:text-secondary md:text-[1rem]">
-                <span>Desenvolvedor Front End</span>
+                <span>Estudante</span>
               </div>
             </div>
           </section>

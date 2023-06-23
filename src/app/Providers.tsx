@@ -13,14 +13,14 @@ import { Footer } from '../components/Footer'
 export function Providers({ children }: { children: ReactNode }) {
   return (
     <ThemeProvider attribute="class">
-      <main className="bg-slate-200 font-sans dark:bg-[#11101b]">
+      <div className="bg-slate-200 font-sans dark:bg-[#11101b]">
         <Header />
         {children}
         <Whatsapp />
         <ButtonTop />
         <Toaster position="bottom-right" />
         <Footer />
-      </main>
+      </div>
     </ThemeProvider>
   )
 }
