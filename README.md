@@ -1,14 +1,14 @@
 <h1 align="center">
-  <img alt="Portifólio" height="80" title="Portfolio" src="./public/favicon.ico" />
+  <img alt="Portfólio" height="80" title="Portfólio" src="./public/favicon.ico" />
 </h1>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/github/license/silasfmartins/portfolio">
+  <img alt="License" src="https://img.shields.io/github/license/silasfmartins/portfolio-exemplo">
 </p>
 
 
 ## 💻 Projeto
-Site que concentra todos os meus projetos.
+Site que concentra alguns dos meus projetos é um exemplo de portfólio.
 
 ## 🔃 Requisitos para utilizar
 
@@ -49,14 +49,14 @@ Esse projeto não possui um sistema de versionamento.
 
 ## 👨‍💻 Contribuir / Contributing
 
-Deseja contribuir com o projeto? [Passo a passo para contribuir](https://github.com/silasfmartins/portfolio/blob/master/Contributing.md)
+Deseja contribuir com o projeto? [Passo a passo para contribuir](https://github.com/silasfmartins/portfolio-example/blob/master/Contributing.md)
 
 ## 💿 Histórico / History
 
-Consulte [Releases](https://github.com/silasfmartins/portfolio/releases) para ter um changelog completo.
+Consulte [Releases](https://github.com/silasfmartins/portfolio-example/releases) para ter um changelog completo.
 
 ## 📄 Licença do Projeto/License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/silasfmartins/portfolio/blob/main/LICENSE) © Silas Martins para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/silasfmartins/portfolio-example/blob/main/LICENSE) © Silas Martins para mais detalhes.
 
 <br />
