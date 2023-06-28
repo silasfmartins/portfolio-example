@@ -45,7 +45,7 @@ Esse projeto não possui um sistema de versionamento.
 
 ## 🆙 Projeto no ar
 
-É possível acessar a aplicação através da URL: https://silasmartins.vercel.app/ .
+É possível acessar a aplicação através da URL: https://portfolio-yn7h3cozw-silasfmartins.vercel.app/ .
 
 ## 👨‍💻 Contribuir / Contributing
 
